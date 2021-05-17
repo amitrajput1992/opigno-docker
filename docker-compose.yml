@@ -15,9 +15,9 @@ version: '2'
 services:
 
   opigno:
-    build: .
+    image: opigno-docker_opigno
     ports:
-      - 8080:80
+      - 8082:80
     restart: always
 
   mariadb:
